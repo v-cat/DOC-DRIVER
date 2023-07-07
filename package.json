@@ -4,9 +4,10 @@
   "description": "This is a technical document answering machine mechanism.This is a local find document assistant.",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "scripts": { 
+    "build": "tsc", 
+    "start": "node ./dist/app.js", 
+    "dev": "ts-node --esm ./src/app.ts"
   },
   "author": "yangdonglin",
   "license": "ISC",
