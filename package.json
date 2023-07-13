@@ -1,19 +1,27 @@
 {
-  "name": "vercel-koa2",
+  "name": "doc-navigation",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a technical document answering machine mechanism.This is a local find document assistant.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
     "build": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "yangdonglin",
   "license": "ISC",
   "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.6",
     "@vercel/node": "^1.15.0",
+    "dotenv": "^16.3.1",
     "koa": "^2.13.4",
-    "nodemon": "^2.0.16"
+    "langchain": "^0.0.75",
+    "nodemon": "^2.0.16",
+    "openai": "^3.3.0",
+    "pdf-parse": "^1.1.1",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.10.0"
   }
 }
